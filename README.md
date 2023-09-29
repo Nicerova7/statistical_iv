@@ -27,4 +27,4 @@ Using optimalBinning, We created a specific way to calculate a predicitive power
 
 #### Example Result:
 
-![Output Example](https://github.com/Nicerova7/statistical_iv/blob/main/images/output_example.png)
+![Output Example](https://github.com/Nicerova7/statistical_iv/blob/main/images/output_example.png?raw=true)
