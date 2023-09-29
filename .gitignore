@@ -1,0 +1,6 @@
+# notebooks
+*.ipynb
+
+# pycache
+__pycache__/
+*.pyc
