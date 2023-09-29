@@ -6,7 +6,8 @@ setup(
   packages = find_packages(), 
   version = '0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-  description = 'Statistical_IV: J-Divergence Hypothesis Test for the Information Value (IV)', # An statistical use of information value with a defined predictived power',   # Give a short description about your library
+  long_description = 'Statistical_IV: J-Divergence Hypothesis Test for the Information Value (IV)', # An statistical use of information value with a defined predictived power',   # Give a short description about your library
+  long_description_content_type = "text/plain",
   author = ' Nilton Rojas, Helder Rojas, Cirilo Alvarez',
   maintainer="Nilton Rojas Vales",
   maintainer_email="nrojasv@uni.pe",

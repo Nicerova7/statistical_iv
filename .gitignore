@@ -1,6 +1,10 @@
 # notebooks
 *.ipynb
 
+build
+dist
+statistical_iv.egg-info
+
 # pycache
 __pycache__/
 *.pyc
