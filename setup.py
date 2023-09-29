@@ -10,7 +10,7 @@ setup(
   author = ' Nilton Rojas, Helder Rojas, Cirilo Alvarez',
   maintainer="Nilton Rojas Vales",
   maintainer_email="nrojasv@uni.pe",
-  url = '',   # Provide either the link to your github or to your website
+  url = 'https://github.com/Nicerova7/statistical_iv',   # Provide either the link to your github or to your website
   keywords = ['information_value', 'woe', 'data science', 'hypothesis test'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'pandas',
