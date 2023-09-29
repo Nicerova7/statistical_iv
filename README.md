@@ -2,8 +2,12 @@
 
 Statistical_IV: J-Divergence Hypothesis Test for the Information Value (IV). Calculation of the Information Value with specific limits to the predictive power.
 
-Using optimalBinning, We created a specific way to calculate a predicitive power for each particular variable.
 
+0. **Import package**
+   ```python
+   from statistical_iv import api
+   ```
+   
 1. **Provide a DataFrame as Input:**
    - Supply a DataFrame `df` containing your data for IV calculation.
 
@@ -20,10 +24,10 @@ Using optimalBinning, We created a specific way to calculate a predicitive power
    - Adjust the maximum number of bins for discretization (optional) using the `max_bins` parameter.
 
 6. **Call the `statistical_iv` Function:**
-   - Calculate IV by calling the `statistical_iv` function with the specified parameters (That is used for OptimalBinning package).
+   - Calculate Statistical IV information by calling the `statistical_iv` function from api with the specified parameters (That is used for OptimalBinning package).
 
    ```python
-   result_df = statistical_iv(df, variables_names, var_y, type_vars, max_bins)
+   result_df = api.statistical_iv(df, variables_names, var_y, type_vars, max_bins)
 
 #### Example Result:
 

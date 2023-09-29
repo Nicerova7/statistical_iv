@@ -3,7 +3,9 @@ from optbinning import OptimalBinning
 from scipy.stats import norm
 import pandas as pd
 from typing import List
-from helpers.consts import BinningParameters, Configuration, OutPut
+from .helpers.consts import BinningParameters, Configuration, OutPut
+
+
 
 def statistical_iv(df: pd.DataFrame, variables_names: List, var_y: str, type_vars:str, max_bins:int = 10)-> pd.DataFrame:
     """
