@@ -27,4 +27,4 @@ Using optimalBinning, We created a specific way to calculate a predicitive power
 
 #### Example Result:
 
-![Output Example](images\output_example.png)
+![Output Example](images/output_example.png)
