@@ -1,6 +1,6 @@
 ### Statistical IV
 
-Statistical_IV: J-Divergence Hypothesis Test for the Information Value (IV). Calculation of the Information Value with specific limits to the predictive power.
+Optimize your machine learning models with 'Statistical-IV'. Perform automated feature selection based on statistics and customize error control.
 
 
 0. **Import package**
