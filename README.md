@@ -1,4 +1,13 @@
-### Statistical IV
+## Statistical IV
+
+
+Our J-Divergence test is under the next null hypothesis
+
+H<sub>0</sub>: The predictive power of the variable is not significant.
+
+The null hypothesis is tested using a two-tailed distribution, and this should be taken into consideration when interpreting the p-value.
+
+### Explanation
 
 Optimize your machine learning models with 'Statistical-IV'. Perform automated feature selection based on statistics and customize error control.
 
@@ -32,3 +41,8 @@ Optimize your machine learning models with 'Statistical-IV'. Perform automated f
 #### Example Result:
 
 ![Output Example](https://github.com/Nicerova7/statistical_iv/blob/main/images/output_example.png?raw=true)
+
+
+### Full Paper:
+
+For a comprehensive exploration of the topic, we recommend perusing the contents of the article available at [this link](https://arxiv.org/abs/2309.13183).

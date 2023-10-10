@@ -8,7 +8,7 @@ long_description = (this_directory / "README.md").read_text()
 setup(
   name = 'statistical_iv',       
   packages = find_packages(), 
-  version = '0.3.0',      # Start with a small number and increase it with every change you make
+  version = '0.3.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Statistical IV: Statistical Hypothesis Testing for the Information Value (IV). Evaluation of the predictive power of features using the IV with specific thresholds for each dataset.', #'Statistical IV: J-Divergence Hypothesis Test for the Information Value (IV)', # An statistical use of information value with a defined predictived power',   # Give a short description about your library
   long_description=long_description,
