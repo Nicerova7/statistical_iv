@@ -39,7 +39,8 @@ def statistical_iv(df: pd.DataFrame, variables_names: List, var_y: str, type_var
         optb.fit(x_, y_)
         resume_table = optb.binning_table.build()
         
-        if resume_table[BinningParameters.bin_column].loc[0] == BinningParameters.one_bin_fail and len(resume_table) == BinningParameters.max_table_one_bin_fail:
+        first_bin_values = resume_table[BinningParameters.bin_column].loc[0]
+        if np.size(first_bin_values) == 1 and first_bin_values == BinningParameters.one_bin_fail and len(resume_table) == BinningParameters.max_table_one_bin_fail:
             variables.append(var)
             js.append(0)
             rvs.append(0)
